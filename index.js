@@ -1,6 +1,15 @@
 // Create an Array of at least 3 losing messages
+var losingMessage = {
+    "I'm so sorry, you did NOT win",
+    "Unfortunately you LOST",
+    "Sorry, you are not a winner"
+}
 
 // Create variables to count wins and losses
+var {
+    wins = count++
+    losses = count++
+}
 
 // Create variables that target elements with the following IDs: 'message', 'wins', 'losses'
 
