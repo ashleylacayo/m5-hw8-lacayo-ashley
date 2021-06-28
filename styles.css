@@ -6,9 +6,94 @@
   --box-color-3: #A5FF01;
 }
 
+*{
+  margin: 0;
+}
 body {
   font-family: 'Bebas Neue', Impact, sans-serif;
+  display: flex;
+  font-weight: 300;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+header {
+  background-color: #6003C3;
+  color: #FFFFFF;
+  font-size: 3 rem;
+  width: 100%;
+  padding: 5%;
+
+}
+
+.boxes {
+  display: flex;
+  width: 100%;
+  align-content: space-between;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+p {
+  margin-top: 20%;
+  color: #6003C3;
+}
+
+#box-1{
+  outline-style: solid;
+  outline-color: #6003C3;
+  outline-width: .4rem;
+  background-color: #FCFF00;
+  font-size: 2rem;
+  padding: 20% 25% 20% 25%;
+  margin:20%;
+}
+
+#box-2{
+  outline-style: solid;
+  outline-color: #6003C3;
+  outline-width: .4rem;
+  background-color: #57FFC9;
+  font-size: 2rem;
+  padding: 20% 25% 20% 25%;
+  margin:20%;
+}
+
+#box-3{
+  outline-style: solid;
+  outline-color: #6003C3;
+  outline-width: .4rem;
+  background-color: #A5FF01;
+  font-size: 2rem;
+  padding: 20% 25% 20% 25%;
+  margin:20%;
+
+}
+
+#message {
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+#wins {
+  padding-right: 10%;
+}
+.score {
+  display: flex;
+  font-size: 2rem;
+  align-content: ;
+  padding: 10%;
+
 }
 
 
+@media (max-width: 625px) {
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+  }
+}
